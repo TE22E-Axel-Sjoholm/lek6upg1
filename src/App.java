@@ -30,5 +30,28 @@ public class App {
         if (array[0] == array[1] || array[0] == array[2]) {
             System.out.println("Första elementet är lika med andra eller tredje elementet.");
         }
+
+        System.out.println("Vilket tal tänker du på, det kommer bli sju i slutändan: ");
+        int orgtalet = tb.nextInt();
+        int talet = orgtalet;
+        System.out.println(talet);
+        talet += 7;
+        System.out.println("Pluss 7"); 
+        System.out.println(talet);
+        talet *= 2;
+        System.out.println("Gånger 2");
+        System.out.println(talet);
+        talet -= 6; 
+        System.out.println("Minus 6");
+        System.out.println(talet);
+        talet /= 2;
+        System.out.println("Delat på 2");
+        System.out.println(talet);
+        talet += 3;
+        System.out.println("Pluss 3");
+        System.out.println(talet);
+        talet -= orgtalet;
+        System.out.println("Minus talet från början.");
+        System.out.println(talet);
     }
 }
