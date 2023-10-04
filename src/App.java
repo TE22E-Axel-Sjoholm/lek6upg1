@@ -13,5 +13,22 @@ public class App {
         if(tal1 == tal2){System.out.println("Tal 1 är samma som tal 2");}
         if(tal1 > tal2){System.out.println("Tal 1 är större än tal 2");}
         if(tal1 < tal2){System.out.println("Tal 1 är mindre än tal 2");}
+        int[] array = new int[3];
+        array[0] = 4;
+        array[1] = 5;
+        array[2] = 2;
+        
+        
+        if (array[0] > array[1] || array[0] > array[2]) {
+            System.out.println("Första elementet är större än andra eller tredje elementet.");
+        }
+
+        if (array[0] < array[1] || array[0] < array[2]) {
+            System.out.println("Första elementet är mindre än andra eller tredje elementet.");
+        }
+
+        if (array[0] == array[1] || array[0] == array[2]) {
+            System.out.println("Första elementet är lika med andra eller tredje elementet.");
+        }
     }
 }
